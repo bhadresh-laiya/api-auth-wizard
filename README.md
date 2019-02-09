@@ -28,8 +28,17 @@ php artisan migrate
 ```
 php artisan passport:install
 ```
+### Step 6 - Modify Mail config field into .env file
+```
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+```
 
-### Step 6 - Test API endpoints using CURL or Using REST Client tool or extension(like Postman, Mozilla Rest Client, etc.)
+### Step 7 - Test API endpoints using CURL or Using REST Client tool or extension(like Postman, Mozilla Rest Client, etc.)
 Register
 
 ```
